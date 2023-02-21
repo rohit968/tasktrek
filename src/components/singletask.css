@@ -1,0 +1,39 @@
+.item-list {
+  background-color: whitesmoke;
+  font-family: Josefin Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5em 1em;
+  letter-spacing: -0.7px;
+  border-bottom: 1px solid #e3e4f1;
+}
+
+.list-item-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  font-size: 1.15rem;
+}
+
+.list-item-display img {
+  height: 15px;
+}
+
+.completed-button {
+  appearance: none;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1px solid rgb(148, 147, 147);
+  cursor: pointer;
+}
+
+.completed-button:checked {
+  background: linear-gradient(135deg, #55ddff 0%, #c058f3 100%);
+}
+
+.deleted-button {
+  cursor: pointer;
+}

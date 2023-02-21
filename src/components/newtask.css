@@ -1,0 +1,74 @@
+.main-container {
+  padding: 3em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+.main-heading img {
+  height: 20px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.main-heading h1 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1em;
+  text-align: center;
+  letter-spacing: 0.5em;
+  color: white;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 1rem 1rem;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 2em;
+  box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.form-container input::placeholder {
+  color: #919294;
+}
+
+.form-container input:focus {
+  outline: none;
+}
+
+.task-details {
+  margin-top: 1em;
+  display: flex;
+  color: #5b5e7e !important;
+  justify-content: space-between;
+  padding: 1em 1em;
+  box-shadow: 1px -1px 5px 0px rgba(143, 142, 142, 0.75);
+}
+
+.task-details button {
+  background-color: transparent;
+  border: none;
+  color: #5b5e7e;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.all-completed button {
+  margin: 0 auto;
+  color: #black;
+}
+
+.all-completed button:hover,
+.all-completed button:focus {
+  color: #202da3;
+}
