@@ -72,3 +72,11 @@
 .all-completed button:focus {
   color: #202da3;
 }
+
+@media screen and (max-width: 500px) {
+  .task-details {
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+  }
+}
